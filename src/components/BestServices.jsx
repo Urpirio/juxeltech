@@ -26,7 +26,7 @@ export default function BestServices() {
                 unde hic porro reiciendis veniam exercitationem. Delectus repellat voluptatem
             </p>
         </div>
-        <div className='flex flex-wrap justify-around p-5 gap-5'>
+        <div className='flex flex-wrap justify-center  p-5 gap-5 xl:gap-5'>
             {CardServicelist}
         </div>
     </section>

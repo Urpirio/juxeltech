@@ -3,6 +3,7 @@ import Image from 'next/image';
 import ImgSolution from '@/../public/SimpleSolution/image.png';
 import DataSimpleSolution from '@/Data/DataSimpleSolution';
 import SubSimpleSolution from './SubComponents/SubSimpleSolution';
+import SimpleSolutionBtn from './btns/SimpleSolutionBtn';
 
 export default function SimpleSolutions() {
 
@@ -37,6 +38,7 @@ export default function SimpleSolutions() {
             <div className='flex flex-col gap-4'>
                 {CardSolutionlist}
             </div>
+            <SimpleSolutionBtn/>
         </div>
     </section>
   )

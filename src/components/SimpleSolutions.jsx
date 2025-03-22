@@ -17,7 +17,7 @@ export default function SimpleSolutions() {
     })
 
   return (
-    <section className='flex flex-wrap justify-around items-center p-10 '>
+    <section className='flex flex-wrap justify-around items-center p-2 '>
         <div className='flex justify-center items-center w-[40%] min-w-80'>
             <Image src={ImgSolution} alt='Person using the computer'/>
         </div>

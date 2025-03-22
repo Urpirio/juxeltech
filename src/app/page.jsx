@@ -1,3 +1,4 @@
+import AboutUs from '@/components/AboutUs';
 import BestServices from '@/components/BestServices';
 import Section1 from '@/components/Section1';
 import SimpleSolutions from '@/components/SimpleSolutions';
@@ -9,6 +10,7 @@ export default function page() {
       <Section1/>
       <BestServices/>
       <SimpleSolutions/>
+      <AboutUs/>
     </main>
   )
 }

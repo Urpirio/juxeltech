@@ -1,5 +1,6 @@
 import BestServices from '@/components/BestServices';
 import Section1 from '@/components/Section1';
+import SimpleSolutions from '@/components/SimpleSolutions';
 import React from 'react';
 
 export default function page() {
@@ -7,6 +8,7 @@ export default function page() {
     <main>
       <Section1/>
       <BestServices/>
+      <SimpleSolutions/>
     </main>
   )
 }

@@ -24,7 +24,7 @@ export default function Section1() {
             </div>
         </div>
         <div className=' flex justify-center items-center w-[40%]'>
-            <Image className='w-[80%] min-w-60' src={ImgSectin1}></Image>
+            <Image className='w-[80%] min-w-60' src={ImgSectin1} alt='Imagen representativa'></Image>
         </div>
     </section>
   )

@@ -7,7 +7,7 @@ export default function AboutUs() {
   return (
     <section className='flex flex-wrap justify-around items-center p-5 sm:p-10'>
         <div className='w-[40%] min-w-80 lg:hidden flex'>
-            <Image src={ImgAbout}/>
+            <Image src={ImgAbout} alt='Imagen about Movil'/>
         </div>
         <div className='flex flex-col w-[80%] lg:w-[40%] min-w-80 gap-5'>
             <div className='font-bold text-3xl' >
@@ -25,7 +25,7 @@ export default function AboutUs() {
             </div>
         </div>
         <div className='w-[40%] min-w-80 hidden lg:flex'>
-            <Image src={ImgAbout}/>
+            <Image src={ImgAbout} alt='Imagen about Desktop'/>
         </div>
     </section>
   )

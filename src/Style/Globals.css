@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+@keyframes LineAnimationStart {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+@keyframes LineAnimationEnd {
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0%;
+    }
+}

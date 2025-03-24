@@ -13,7 +13,7 @@ export default function SubBestServices(props) {
         <p className='text-gray-800'>{props.Description}</p>
       </div>
       <div className='pl-5 pb-5'>
-        <span>read more</span>
+        <span className='text-blue-500 cursor-pointer transition-all duration-200 hover:border-b-1 '>Read more</span>
       </div>
     </article>
   )

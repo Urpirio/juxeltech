@@ -20,7 +20,7 @@ export default function Section1() {
                 </p>
             </div>
             <div>
-                <button className=' w-40 p-2 border-1 rounded-2xl bg-blue-500 shadow-2xl text-white'>Get a Service</button>
+                <button className=' w-40 p-2 border-1 rounded-2xl bg-blue-500 shadow-2xl text-white cursor-pointer transition-all duration-200 hover:opacity-75'>Get a Service</button>
             </div>
         </div>
         <div className=' flex justify-center items-center w-[40%]'>

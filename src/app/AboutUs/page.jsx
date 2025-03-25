@@ -1,7 +1,28 @@
-import React from 'react'
+import React from 'react';
+import DataAboutSection from './Data/DataAboutSections';
+import OurMission from './components/OurMission';
 
 export default function About() {
+
+  const ListSection = DataAboutSection.map(DAS => {
+    return(
+      <OurMission
+      title = {DAS.title}
+      Image = {DAS.Image}
+      Text1 = {DAS.Text1}
+      Text2 = {DAS.Text2}
+      classOrder = {DAS.classOrder}
+      classAlign = {DAS.classAlign}
+      padding = {DAS.padding}
+      />
+    )
+  })
+
+
+
   return (
-    <div>About</div>
+    <main>
+      {ListSection}
+    </main>
   )
 };

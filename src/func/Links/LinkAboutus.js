@@ -1,5 +1,5 @@
 
 const LinkAboutUs = () => {
-    // window.location.href = '/'
+    window.location.href = '/AboutUs';
 };
 export default LinkAboutUs;

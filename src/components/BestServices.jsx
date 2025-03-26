@@ -19,11 +19,12 @@ export default function BestServices() {
     <section className='flex flex-col items-center justify-center p-5'>
         <div className='flex flex-col justify-center items-center p-5 gap-2'>
             <h2 className='font-bold text-3xl text-center'>
-              Web Provide The Best <span className='text-blue-600'>services</span>
+              Web provide the best <span className='text-blue-600'>services</span>
             </h2>
-             <p className='text-[16px] text-center w-[80%] min-w-80'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nulla dicta 
-                unde hic porro reiciendis veniam exercitationem. Delectus repellat voluptatem
+             <p className='text-[18px] text-center text-gray-800 w-[80%] min-w-80'>
+             At JuxelTech, we deliver top-tier digital solutions designed to elevate your business.
+             Our expertise in web development, UI/UX design, SEO, and maintenance ensures that your
+             online presence is both powerful and effective.
             </p>
         </div>
         <div className='flex flex-wrap justify-center  p-5 gap-5 xl:gap-5'>

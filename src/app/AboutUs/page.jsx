@@ -1,12 +1,13 @@
 import React from 'react';
 import DataAboutSection from './Data/DataAboutSections';
-import OurMission from './components/OurMission';
+import AboutSection from './components/AboutSection';
+import Founder from './components/Founder';
 
 export default function About() {
 
   const ListSection = DataAboutSection.map(DAS => {
     return(
-      <OurMission
+      <AboutSection
       title = {DAS.title}
       Image = {DAS.Image}
       Text1 = {DAS.Text1}
@@ -23,6 +24,7 @@ export default function About() {
   return (
     <main>
       {ListSection}
+      <Founder/>
     </main>
   )
 };

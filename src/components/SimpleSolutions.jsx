@@ -26,7 +26,7 @@ export default function SimpleSolutions() {
             <div className='flex flex-wrap w-[100%] '>
                 <div className='text-3xl font-bold '>
                     <h2>
-                        Simple<span className='text-blue-600'> Solutions!</span>
+                        Simple<span className='text-blue-600'> solutions!</span>
                     </h2>
                 </div>
                 <div className='text-[18px] font-normal text-gray-800  '>

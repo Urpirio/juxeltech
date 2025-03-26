@@ -14,10 +14,11 @@ export default function AboutUs() {
                 <h2>Our <span className='text-blue-600'>Agency</span></h2>
             </div>
             <div className='flex flex-col gap-2 text-xl text-gray-700'>
-                <p>We believe in the power of data. Our analytics-driven approach allows us to make informed</p>
+                {/* <p>We believe in the power of data. Our analytics-driven approach allows us to make informed</p> */}
                 <p>
-                    Decisions and optimize your marketing efforts for maximum ROI. Let's turn your
-                    data into actionable insights. Tailored solutions for Your Business.
+                At JuxelTech, we are passionate about crafting innovative digital solutions that
+                help businesses thrive. With a team of experts in web development, design, and 
+                marketing, we turn ideas into powerful online experiences.
                 </p>
             </div>
             <div>

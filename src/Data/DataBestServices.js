@@ -1,26 +1,26 @@
 const DataBestServices = [
     {
-       Service: 'Seo/Sem',
-       Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem. Lorem ipsum dolor sit amet.',
+       Service: 'SEO Optimization',
+       Description: 'Improved search engine ranking for more visibility.',
        Icon: 'bx bx-search-alt', 
        bg: 'bg-amber-400',
     },
     {
-        Service: 'Marketing',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem. Lorem ipsum dolor sit amet.',
-        Icon: 'bx bxs-megaphone', 
+        Service: 'UI/UX Design',
+        Description: 'Attractive and optimized design for the best user experience.',
+        Icon: 'bx bx-paint-roll', 
         bg: 'bg-blue-600',
      },
      {
-        Service: 'Viral Campaign',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem. Lorem ipsum dolor sit amet.',
-        Icon: 'bx bx-tv',
+        Service: 'Web Development',
+        Description: 'Custom and functional website creation.',
+        Icon: 'bx bx-devices',
         bg: 'bg-violet-600 ',
      },
      {
-        Service: 'Others',
-        Description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, quidem. Lorem ipsum dolor sit amet.',
-        Icon: 'bx bx-receipt',
+        Service: 'Maintenance & Support',
+        Description: 'Ongoing updates, security, and performance enhancements.',
+        Icon: 'bx bxs-hard-hat',
         bg: 'bg-orange-600', 
      },
 ];

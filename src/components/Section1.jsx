@@ -8,15 +8,17 @@ export default function Section1() {
         <div className='flex flex-col gap-5 w-[40%] min-w-70'>
             <div className='text-4xl w-[80%]  font-bold'>
                 <h2>
-                We Create
+                We create
                     <span className='text-blue-600'> solutions </span>
-                for Your businness
+                for your businness
                 </h2>
             </div>
             <div className='text-[18px] text-gray-700'>
                 <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse enim qui eos ad? Qui consequatur aut dicta,
-                 libero sunt aperiam possimus optio quisquam voluptas itaque quidem voluptates numquam ad cumque?
+                In the digital era, your business needs more than just a website—it
+                needs a powerful online presence. We craft innovative, high-performing
+                web solutions designed to drive growth, engage customers, and give you
+                a competitive edge.
                 </p>
             </div>
             <div>

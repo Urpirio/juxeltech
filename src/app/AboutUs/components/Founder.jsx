@@ -1,0 +1,30 @@
+import Image from 'next/image';
+import React from 'react';
+import DataFounter from '../Data/DataFounder';
+import Subfounder from './Subcomponents/Subfounder';
+
+export default function Founder() {
+
+    const FoundersList = DataFounter.map( DF =>{
+        return(
+            <Subfounder
+            Img = {DF.Img}
+            name = {DF.name}
+            work = {DF.work}
+            About = {DF.About}
+            />
+        )
+    })
+
+  return (
+    <section className='flex flex-col items-center'>
+        <div className='text-center'>
+            <h2 className='text-3xl'>Our <span className='text-blue-600'>Founder</span></h2>
+            <p className='text-[18px]'>Our team  consists only of the best talents</p>
+        </div>
+        <div className='flex flex-col gap-5 justify-center items-center w-[100%] min-w-80 p-8'>
+            {FoundersList}
+        </div>
+    </section>
+  )
+}

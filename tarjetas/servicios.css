@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.seccion1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+
+    
+}
+
+
+.numero{
+    font-size: 2rem;
+    border-right: solid 2px gray;
+    padding-right: 10px;
+    
+}
+.mes{
+    font-size: 20px;
+}
+.pro{
+    position: relative;
+    top: -2rem;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.cuerpo1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    background-color: #4F45E5;
+    width: 300px;
+    border-radius: 20px;
+    gap: 20px;
+    
+
+}
+
+
+.cuerpo1 span{
+    color: white;
+
+}
+svg path{
+  
+    color: white;
+}
+
+button{
+    border: none;
+    padding: 9px;
+    color: #4F45E5;
+    background-color: white;
+    border-radius: 20px;
+    width: 250px;
+}
+.inicio{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 10px;
+    border-bottom: solid 2px gray;
+    padding-bottom: 30px;
+}
+.svg{
+    display: flex;
+    flex-direction: row;
+}
+.papa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.hijo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 1rem;
+}
+.svg{
+    width: 2rem;
+    color: white;
+}
+img{
+    width: 100px;
+}
+i{
+    width:3rem;
+}

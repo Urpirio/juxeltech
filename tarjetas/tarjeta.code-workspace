@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "tarjeta"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "tarjetas",
+		"liveServer.settings.port": 5501
+	}
+}

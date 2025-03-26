@@ -12,7 +12,7 @@ export default function page() {
       <BestServices/>
       <SimpleSolutions/>
       <AboutUs/>
-      <ClientsSay/>
+      {/* <ClientsSay/> */}
     </main>
   )
 }

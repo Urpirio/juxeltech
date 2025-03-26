@@ -12,6 +12,7 @@ export default function About() {
       Image = {DAS.Image}
       Text1 = {DAS.Text1}
       Text2 = {DAS.Text2}
+      Text3 = {DAS.Text3}
       classOrder = {DAS.classOrder}
       classAlign = {DAS.classAlign}
       padding = {DAS.padding}
@@ -25,6 +26,7 @@ export default function About() {
     <main>
       {ListSection}
       <Founder/>
+
     </main>
   )
 };

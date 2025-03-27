@@ -1,10 +1,10 @@
 const DataCardDinamic = [
     {
         NameService: `Dynamic Website`,
-        PriceService: ``,
+        PriceService: `1000 - 2000`,
         DescriptionService: `A website with interactive content,
         real-time data management, and advanced functionalities.`,
-        classIcon: ``,
+        classIcon: `bx bx-buildings`,
         BgHeader: `bg-violet-700`,
         BgFooterBtn: `bg-violet-700`,
         listdescription: [

@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import CardServices from './components/CardServices';
 
 export default function Services() {
   return (
-    <section>
-      
-    </section>
+    <main>
+      <CardServices/>
+    </main>
   )
 }

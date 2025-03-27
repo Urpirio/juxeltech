@@ -1,26 +1,25 @@
-import React from 'react';
 
 export default function SubCardServices(props) {
   return (
-    <article className='w-70 flex flex-col  border-1 border-gray-300 rounded-2xl shadow-xl  '>
+    <article className='w-70 flex flex-col  border-1 border-gray-300 rounded-2xl shadow-xl transition-transform duration-300 hover:scale-105 '>
         <header className='flex items-center rounded-t-2xl'>
-            <div  className={`flex justify-center items-center w-[30%] h-16 rounded-tl-2xl rounded-br-2xl p-3    ${props.BgHeader}`}>
+            <div  className={`flex justify-center items-center w-[30%] h-16 rounded-tl-2xl rounded-br-2xl p-3   ${props.BgHeader}`}>
                 <i className={`${props.classIcon} text-3xl text-white`}></i>
             </div>
             <div className='flex flex-grow basis-0 items-center rounded-tr-2xl h-[100%] p-2 '>
-                <h2 className='text-[18px]'>{props.NameService}</h2>
+                <h2 className='text-[18px] font-semibold'>{props.NameService}</h2>
             </div>
         </header>
         <section className='flex flex-col gap-5  p-5 flex-grow'>
             <div>
-                <h2>US$ {props.PriceService}</h2>
+                <h2 className="text-2xl">US$ {props.PriceService}</h2>
             </div>
             <div>
-                <p>
+                <p className="text-gray-800">
                     {props.DescriptionService}
                 </p>
             </div>
-            <div className='flex flex-col'>
+            <div className='flex flex-col text-gray-600'>
                 {props.listdescription}
             </div>
         </section>

@@ -7,7 +7,7 @@ export default function SubCardServices(props) {
                 <i className={`${props.classIcon} text-3xl text-white`}></i>
             </div>
             <div className='flex flex-grow basis-0 items-center rounded-tr-2xl h-[100%] p-2 '>
-                <h2 className='text-[18px] font-semibold'>{props.NameService}</h2>
+                <h2 className='text-[18px]  font-semibold'>{props.NameService}</h2>
             </div>
         </header>
         <section className='flex flex-col gap-5  p-5 flex-grow'>

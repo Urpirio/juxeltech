@@ -1,7 +1,7 @@
 const DataCardEcommerce = [
     {
         NameService: `E-commerce Website`,
-        PriceService: ``,
+        PriceService: `1500 - 2500`,
         DescriptionService: `An online store with payment systems,
         shopping cart, and product management.`,
         classIcon: `bx bx-store-alt`,

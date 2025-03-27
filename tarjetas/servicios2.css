@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 520px;
+    margin-right: 520px;
+}
+.contenido p{
+    font-family: Poppins;
+    font-size: 13px;
+}
+.inicio{
+    position: relative;
+}
+.target{
+    justify-content: center;
+    background: orange;
+    top: -20px;
+    left: -30px;
+    width: 65px;
+    height: 55px;
+    position: absolute;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.target i{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.inicio h4{
+    padding-left: 60px;
+    font-family: Poppins;
+}
+.precio span{
+    font-size: 15px;
+    color: gray;
+}
+.contenido p{
+    color: gray;
+}
+
+.caracteristicas ul{
+    list-style: none;
+    font-size: 14px;
+    margin-left: -2px;
+}
+.caracteristicas img{
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+}
+.caracteristicas button{
+    background: transparent;
+    color: rgb(21, 21, 172);
+    font-weight: 700;
+    display: flex;
+    padding: 16px 90px;
+    border-radius: 30px;
+    outline: none;
+    border-style: double;
+    border-color: blue;  
+    cursor: pointer;
+}
+.caracteristicas button:hover{
+    background: rgb(21, 21, 172);
+    color: white;
+}
+.caracteristicas i{
+    display: flex;
+}
+.caracteristicas li{
+    color: black;
+    margin-left: 5px;
+}

@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+body{
+    scroll-behavior: smooth;
+}
+
+
+/* Animaciones para el header */
 @keyframes LineAnimationStart {
     from{
         width: 0%;
@@ -15,5 +21,59 @@
     }
     to{
         width: 0%;
+    }
+}
+/* animacione para las preguntas del apartado de servicio */
+
+/* Animacion de tres lineas en pc */
+@keyframes AnswerAnimation1Start {
+    
+    from{
+        height: 0px;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        height: 72px;
+    }
+}
+@keyframes AnswerAnimation2Start {
+    from{
+        height: 0px;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        height: 48px;
+    }
+}
+@keyframes AnswerAnimation3Start {
+    from{
+        height: 0px;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        height: 24px;
+    }
+}
+@keyframes AnswerAnimation4Start {
+    from{
+        height: 0px;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        height: 120px;
+    }
+}
+@keyframes AnswerAnimation5Start {
+    from{
+        height: 0px;
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        height: 95px;
     }
 }

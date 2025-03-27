@@ -101,12 +101,12 @@ export default function WebDevelopmentIncluye() {
     
 
   return (
-    <section className='flex flex-wrap justify-center pt-5 pb-5'>{/*Contenedor de los elementos*/}
-        <div className=' flex flex-wrap w-[50%] min-w-90 justify-end '>
+    <section className='flex flex-wrap sm:justify-center justify-start pt-5 pb-5 gap-5'>{/*Contenedor de los elementos*/}
+        <div className=' flex flex-wrap  min-w-80  gap-5 px-5 '>
             {WebArticlelist}
             {WebArticlelist2}
         </div>
-        <div className=' flex  flex-wrap w-[50%] min-w-90 justify-start'>
+        <div className=' flex flex-wrap  lg: min-w-80 gap-5 px-5'>
             {WebArticlelist3}
             {WebArticlelist4}
         </div>

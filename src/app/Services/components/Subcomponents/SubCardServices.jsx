@@ -1,7 +1,7 @@
 
 export default function SubCardServices(props) {
   return (
-    <article className='w-70 flex flex-col  border-1 border-gray-300 rounded-2xl shadow-xl transition-transform duration-300 hover:scale-105 '>
+    <article className='w-70 flex flex-col  border-1 bg-white border-gray-300 rounded-2xl shadow-xl transition-transform duration-300 hover:scale-105 '>
         <header className='flex items-center rounded-t-2xl'>
             <div  className={`flex justify-center items-center w-[30%] h-16 rounded-tl-2xl rounded-br-2xl p-3   ${props.BgHeader}`}>
                 <i className={`${props.classIcon} text-3xl text-white`}></i>

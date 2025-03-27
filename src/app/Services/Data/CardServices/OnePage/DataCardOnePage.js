@@ -1,11 +1,11 @@
 const DataCardOnePage = [
     {
         NameService: `Onepage Website`,
-        PriceService: ``,
+        PriceService: `110 - 500`,
         DescriptionService: `A single-page website with smooth
         navigation, ideal for presenting information concisely
         and effectively.`,
-        classIcon: ``,
+        classIcon: `bx bx-window`,
         BgHeader: `bg-amber-400`,
         BgFooterBtn: `bg-amber-400`,
         listdescription: [

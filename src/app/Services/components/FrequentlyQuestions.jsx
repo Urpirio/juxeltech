@@ -30,7 +30,7 @@ export default function FrequentlyQuestions() {
                 <div className="w-20 h-1 bg-blue-600 rounded-2xl"></div>
             </div>
         </div>
-        <div className=" flex p-5">
+        <div className=" flex justify-center p-5">
              <div className="flex flex-col justify-center w-[50%] min-w-80 sm:min-w-140 border-1 border-blue-400 rounded-2xl shadow-xl">
                 {Questionlist}
             </div>

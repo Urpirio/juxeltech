@@ -1,6 +1,7 @@
 // 'use client'
 const DataFrenquentlyQuestion = [
     {
+        keyId: 0,
         NumberQuestion: 1,
         question: `How long does it take to develop a website?`,
         answer: `It depends on the type of website. A Onepage site
@@ -15,6 +16,7 @@ const DataFrenquentlyQuestion = [
 
     },
     {
+        keyId: 1,
         NumberQuestion: 2,
         question: `What is included in the web development service?`,
         answer: ` It includes custom design, responsive development,
@@ -28,6 +30,7 @@ const DataFrenquentlyQuestion = [
         animate-[AnswerAnimation5Start_1s]`,
     },
     {
+        keyId: 2,
         NumberQuestion: 3,
         question: `Are the websites mobile-friendly?`,
         answer: `Yes, all our websites are fully responsive and work
@@ -40,6 +43,7 @@ const DataFrenquentlyQuestion = [
         animate-[AnswerAnimation1Start_1s]`,
     },
     {
+        keyId: 3,
         NumberQuestion: 4,
         question: `Can I manage my website after delivery?`,
         answer: `Yes, if the website is dynamic or e-commerce, we 
@@ -53,6 +57,7 @@ const DataFrenquentlyQuestion = [
         animate-[AnswerAnimation1Start_1s]`,
     },
     {
+        keyId: 4,
         NumberQuestion: 5,
         question: `What if I need changes after the website is delivered?`,
         answer: `We offer support and maintenance services for updates, 

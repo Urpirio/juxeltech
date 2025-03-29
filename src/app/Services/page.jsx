@@ -1,4 +1,4 @@
-import React from 'react';
+
 import CardServices from './components/CardServices';
 import FrequentlyQuestions from './components/FrequentlyQuestions';
 

@@ -1,5 +1,5 @@
 
-import React from 'react';
+
 import SubCardServices from './Subcomponents/SubCardServices';
 import ListAboutService from './Subcomponents/ListAboutService';
 import DataCardOnePage from '../Data/CardServices/OnePage/DataCardOnePage';

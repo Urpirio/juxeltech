@@ -14,8 +14,8 @@ export default function Header() {
     
 
   return (
-    <header className='flex items-center justify-around h-15 border-1 sticky top-[0%] bg-white border-gray-200 shadow-xs z-50'>
-        <div className='text-2xl'>
+    <header className='flex items-center justify-around h-15 border-1 sticky top-[0%] bg-white border-gray-200 shadow-xs z-50 p-5'>
+        <div className='text-2xl flex flex-grow basis-0'>
             <h1>
                 <span className='font-bold text-blue-700'>JX</span>
                 <span className='font-light'>Tech</span>
@@ -56,7 +56,7 @@ export default function Header() {
             </div>
 
         </nav>
-        <div>
+        <div className='flex justify-end flex-grow basis-0'>
             <button className='border-1 rounded-2xl bg-blue-500 shadow-xs p-2 w-30 text-white font-semibold transition-all duration-200 cursor-pointer hover:opacity-75'>Contact</button>
         </div>
     </header>

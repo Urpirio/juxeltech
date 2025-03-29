@@ -1,8 +1,9 @@
-import React from 'react'
+import DataSimpleSolution from "@/Data/DataSimpleSolution";
 
-export default function SubSimpleSolution(props) {
-  return (
-    <article className='flex items-center  justify-left gap-5'>
+export default function SubSimpleSolution() {
+  const list = DataSimpleSolution.map( props => {
+    return(
+      <article key={props.keyid} className='flex items-center  justify-left gap-5'>
         <div className='h-10 w-10 flex justify-center items-center bg-blue-500 rounded-[100%] text-white text-xl'>
             <span>{props.number}</span>
         </div>
@@ -12,5 +13,7 @@ export default function SubSimpleSolution(props) {
             <p className='font-normal text-gray-600' >{props.description}</p>
         </div>
     </article>
-  )
+    )
+  })
+  return (list)
 }

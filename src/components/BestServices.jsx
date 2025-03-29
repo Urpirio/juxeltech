@@ -1,19 +1,7 @@
-import DataBestServices from '@/Data/DataBestServices';
-import React from 'react';
 import SubBestServices from './SubComponents/SubBestServices';
 
 export default function BestServices() {
 
-    const CardServicelist = DataBestServices.map( DBS => {
-        return(
-            <SubBestServices
-            Service = {DBS.Service}
-            Description = {DBS.Description}
-            Icon = {DBS.Icon}
-            bg = {DBS.bg}
-            />
-        )
-    })
 
   return (
     <section className='flex flex-col items-center justify-center p-5'>
@@ -28,7 +16,7 @@ export default function BestServices() {
             </p>
         </div>
         <div className='flex flex-wrap justify-center  p-5 gap-5 xl:gap-5'>
-            {CardServicelist}
+          <SubBestServices/>
         </div>
         
     </section>

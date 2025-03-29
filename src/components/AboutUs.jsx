@@ -1,4 +1,4 @@
-import React from 'react';
+
 import AboutUsBtn from './btns/AboutUsBtn';
 import Image from 'next/image';
 import ImgAbout from '@/../public/AboutUs/image.png';

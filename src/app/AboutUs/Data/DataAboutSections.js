@@ -3,6 +3,7 @@ import RocketAbourUs from '@/../public/AboutUs/RocketAboutUs.png';
 
 const DataAboutSection = [
     {
+        keyid: 0,
         Image: RocketAbourUs,
         title: 'Mission',
         Text1: `At JuxelTech, our mission is to transform the future by creating technological solutions that not only improve business processes but also have a real, positive impact on people's lives. We believe in the power of innovation to create applications that not only optimize business performance and efficiency but also catalyze social and personal change.`,
@@ -13,6 +14,7 @@ const DataAboutSection = [
         padding: 'p-8',
     },
     {
+        keyid: 1,
         Image: BookHistory,
         title: 'Story',
         Text1: `JuxelTech began in 2025, when three young individuals with a shared vision decided to come together and create something that would make a difference. United by a passion for technology and the desire to change the job landscape in web and mobile design and development, we set out on a clear mission: to significantly impact the future of both people and businesses, opening new doors for those who need them most.`,

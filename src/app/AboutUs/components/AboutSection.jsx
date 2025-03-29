@@ -1,10 +1,13 @@
-
 import Image from 'next/image';
-import React from 'react';
+import DataAboutSection from '../Data/DataAboutSections';
 
-export default function AboutSection(props) {
-  return (
-    <section className={`flex flex-wrap ${props.classOrder} ${props.padding} ${props.classAlign} justify-center  gap-5 `}>
+
+export default function AboutSection() {
+
+
+  const list = DataAboutSection.map( props => {
+    return(
+      <section key={props.keyid} className={`flex flex-wrap ${props.classOrder} ${props.padding} ${props.classAlign} justify-center  gap-5 `}>
       
       <div className={`flex flex-wrap sm:flex-row  justify-center lg:justify-start lg:text-left text-center    w-[90%] gap-5 sm:gap-2 lg:w-[40%] min-w-90`}>
 
@@ -25,5 +28,8 @@ export default function AboutSection(props) {
        <Image className='rounded-4xl h-90 w-90' src={props.Image} alt={props.title}/>
       </div>
     </section>
-  )
-}
+    )
+  })
+
+  return (list);
+};

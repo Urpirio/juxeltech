@@ -3,6 +3,7 @@ import React from 'react';
 import '../Style/Globals.css';
 import Header from '@/components/Header';
 import logo from '@/../public/SimpleSolution/image.png'
+import Footer from '@/components/Footer';
 
 export default function layout({children}) {
 
@@ -18,6 +19,7 @@ export default function layout({children}) {
     <body >
       <Header/>
         {children}
+      <Footer/>
     </body>
     </html>
   )

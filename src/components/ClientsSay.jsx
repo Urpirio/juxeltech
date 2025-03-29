@@ -1,6 +1,6 @@
 'use client'
 import DataClientsSay from '@/Data/DataClientsSay';
-import React from 'react';
+
 import SubClientsSay from './SubComponents/SubClientsSay';
 import { usePathname } from 'next/navigation';
 import ClientsSayStar from '@/func/ClientSayStar';

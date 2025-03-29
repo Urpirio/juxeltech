@@ -1,9 +1,11 @@
-import React from 'react';
 import Image from 'next/image';
+import DataFounter  from '../../Data/DataFounder';
 
-export default function Subfounder(props) {
-  return (
-    <article className='flex flex-wrap justify-center items-center w-80  shadow-xl rounded-b-2xl rounded-t-2xl'>
+export default function Subfounder() {
+
+    const List = DataFounter.map( props => {
+
+       return(<article key={props.keyId} className='flex flex-wrap justify-center items-center w-80  shadow-xl rounded-b-2xl rounded-t-2xl'>
                 <div className='w-80 rounded-2xl  shadow-2xs'>
                     <Image className='rounded-t-2xl' src={props.Img} alt={props.name}/>
                 </div>
@@ -31,6 +33,8 @@ export default function Subfounder(props) {
                     </div>
                 </div>
                 
-            </article>
-  )
-}
+            </article>)
+    });
+
+  return (List)
+};

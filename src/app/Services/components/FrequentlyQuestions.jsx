@@ -1,26 +1,7 @@
-import DataFrenquentlyQuestion from "../Data/FrequentlyQuestion/DataFrequentlyQuestion";
 import SubFrequentlyQuestion from "./Subcomponents/SubFrequentlyQuestion";
 
 
 export default function FrequentlyQuestions() {
-
-
-    const Questionlist = DataFrenquentlyQuestion.map(DFQ => {
-        return(
-            <SubFrequentlyQuestion
-            NumberQuestion ={DFQ.NumberQuestion}
-            question = {DFQ.question}
-            answer = {DFQ.answer}
-            State = {DFQ.State}
-            classQuetion = {DFQ.classQuetion}
-            ClassIcon = {DFQ.ClassIcon}
-            Animaciones = {DFQ.Animaciones}
-            // AnimacionMovil = {DFQ.AnimacionMovil}
-            // AnimacionTablet = {DFQ.AnimacionTablet}
-            />
-        )
-    })
-
 
   return (
     <section className="flex flex-col items-center py-10 gap-y-5">
@@ -32,7 +13,7 @@ export default function FrequentlyQuestions() {
         </div>
         <div className=" flex justify-center w-[60%] p-5">
              <div className="flex flex-col justify-center w-[100%] min-w-80 border-1 border-blue-400 rounded-2xl shadow-xl">
-                {Questionlist}
+               <SubFrequentlyQuestion/>
             </div>
         </div>
     </section>

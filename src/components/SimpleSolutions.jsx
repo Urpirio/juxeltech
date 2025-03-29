@@ -1,21 +1,10 @@
-import React from 'react';
+
 import Image from 'next/image';
 import ImgSolution from '@/../public/SimpleSolution/image.png';
-import DataSimpleSolution from '@/Data/DataSimpleSolution';
 import SubSimpleSolution from './SubComponents/SubSimpleSolution';
 import SimpleSolutionBtn from './btns/SimpleSolutionBtn';
 
 export default function SimpleSolutions() {
-
-    const CardSolutionlist = DataSimpleSolution.map( DSS =>{
-        return(
-            <SubSimpleSolution
-            number = {DSS.number}
-            title = {DSS.title}
-            description = {DSS.description}
-            />
-        )
-    })
 
   return (
     <section className='flex flex-wrap justify-around items-center p-2 '>
@@ -36,7 +25,7 @@ export default function SimpleSolutions() {
                 </div>
             </div>
             <div className='flex flex-col gap-4'>
-                {CardSolutionlist}
+                <SubSimpleSolution/>
             </div>
             <SimpleSolutionBtn/>
         </div>

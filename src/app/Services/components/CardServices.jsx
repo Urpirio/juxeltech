@@ -103,7 +103,7 @@ export default function CardServices() {
    
 
   return (
-    <section className='flex flex-wrap gap-5 justify-center lg:gap-0 lg:justify-around p-10'>
+    <section className='flex flex-wrap gap-5 justify-center sm:gap-5 lg:justify-around p-10'>
         {CardOnePage}
         {CardMultiPage}
         {CardDinamic}

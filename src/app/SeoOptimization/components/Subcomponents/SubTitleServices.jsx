@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function SubTitleServices(props) {/*Este elemento en el componente todos los titles antes de hablar de algun tema*/
   return (

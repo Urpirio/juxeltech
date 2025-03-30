@@ -1,12 +1,10 @@
-// import { Main } from 'next/document';
-import React from 'react'
-import SeoOptimization from './components/SeoOptimization'
-import SeoOptimizationIncluye from './components/SeoOptimizationIncluye'
-import UIDesign from './components/UIDesign'
-import UIDesignIncluye from './components/UIDesignIncluye'
-import HowUIDesign from './components/HowUIDesign'
-import WebDevelopment from './components/WebDevelopment'
-import WebDevelopmentIncluye from './components/WebDevelopmentIncluye'
+import SeoOptimization from "./components/SeoOptimization/SeoOptimization";
+import SeoOptimizationIncluye from "./components/SeoOptimization/SeoOptimizationIncluye";
+import UIDesign from "./components/Design/UIDesign";
+import UIDesignIncluye from "./components/Design/UIDesignIncluye";
+import HowUIDesign from "./components/Design/HowUIDesign";
+import WebDevelopment from "./components/webDev/WebDevelopment";
+import WebDevelopmentIncluye from "./components/webDev/WebDevelopmentIncluye";
 
 export default function page() {
   return (

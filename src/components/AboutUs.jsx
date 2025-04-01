@@ -5,12 +5,12 @@ import ImgAbout from '@/../public/AboutUs/image.png';
 
 export default function AboutUs() {
   return (
-    <section className='flex flex-wrap justify-around items-center p-5 sm:p-10'>
+    <section className='flex flex-wrap justify-around items-center p-5 sm:p-10 dark:bg-black'>
         <div className='w-[40%] min-w-80 lg:hidden flex'>
             <Image src={ImgAbout} alt='Imagen about Movil'/>
         </div>
         <div className='flex flex-col w-[80%] lg:w-[40%] min-w-80 gap-5'>
-            <div className='font-bold text-3xl' >
+            <div className='font-bold text-3xl dark:text-white' >
                 <h2>Our <span className='text-blue-600'>Agency</span></h2>
             </div>
             <div className='flex flex-col gap-2 text-xl text-gray-700'>

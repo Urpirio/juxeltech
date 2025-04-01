@@ -7,7 +7,7 @@ export default function AboutSection() {
 
   const list = DataAboutSection.map( props => {
     return(
-      <section key={props.keyid} className={`flex flex-wrap ${props.classOrder} ${props.padding} ${props.classAlign} justify-center  gap-5 `}>
+      <section key={props.keyid} className={`flex flex-wrap ${props.classOrder} ${props.padding} ${props.classAlign} justify-center gap-5 `}>
       
       <div className={`flex flex-wrap sm:flex-row  justify-center lg:justify-start lg:text-left text-center    w-[90%] gap-5 sm:gap-2 lg:w-[40%] min-w-90`}>
 
@@ -18,7 +18,7 @@ export default function AboutSection() {
             <Image className='rounded-4xl w-60' src={props.Image} alt={props.title}/>
         </div>
 
-        <div className='flex flex-col lg:w-[100%]   gap-3 text-[16px] text-gray-700'>
+        <div className='flex flex-col lg:w-[100%] p-5 sm:p-0  gap-3 text-[16px] text-gray-700'>
           <p>{props.Text1}</p>
           <p>{props.Text2}</p>
           <p>{props.Text3}</p>

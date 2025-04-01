@@ -3,11 +3,8 @@ import HoverAbout from '@/func/Hovers/HoverAbout';
 import HoverProyects from '@/func/Hovers/HoverProyects';
 import HoverHome from '@/func/Hovers/HoverHome';
 import HoverServices from '@/func/Hovers/HoverServices';
-import LinkAboutUs from '@/func/Links/LinkAboutus';
-import LinkProyects from '@/func/Links/LinkProyects';
-import LinkHome from '@/func/Links/LinkHome';
-import LinkServices from '@/func/Links/LinkServices';
 import { usePathname } from 'next/navigation';
+import { GeneralLink } from '@/func/GeneralLink/GeneralLink';
 
 export default function Header() {
     
@@ -22,25 +19,31 @@ export default function Header() {
         </div>
         <nav className=' hidden sm:flex items-center gap-5'>
 
-            <div onClick={LinkHome} onMouseEnter={HoverHome} onMouseLeave={HoverHome} 
-                className={`flex-col cursor-pointer transition-all duration-200 hover:text-blue-500 
-                ${ PathHome === usePathname() ? 'text-blue-500' : ''}`}>
+            <div onClick={()=>{GeneralLink('/')}} 
+                 onMouseEnter={HoverHome} 
+                 onMouseLeave={HoverHome} 
+                 className={`flex-col cursor-pointer transition-all duration-200 hover:text-blue-500 
+                 ${ PathHome === usePathname() ? 'text-blue-500' : ''}`}>
 
                 <span>Home</span>
                 <div className='h-1 rounded-2xl bg-blue-500 w-0' id='LineHome'></div>
 
             </div>
 
-            <div onClick={LinkAboutUs} onMouseEnter={HoverAbout} onMouseLeave={HoverAbout} 
-                className={`flex-col cursor-pointer transition-all duration-200 hover:text-blue-500 
-                ${PathAboutUs === usePathname() ? 'text-blue-500' : ''}`}>
+            <div onClick={()=>{GeneralLink('/AboutUs')}} 
+                 onMouseEnter={HoverAbout} 
+                 onMouseLeave={HoverAbout} 
+                 className={`flex-col cursor-pointer transition-all duration-200 hover:text-blue-500 
+                 ${PathAboutUs === usePathname() ? 'text-blue-500' : ''}`}>
             
                 <span>About us</span>
                 <div className='h-1 rounded-2xl bg-blue-500 w-0 ' id='LineAbout'></div>
 
             </div>
 
-            <div onClick={LinkServices} onMouseEnter={HoverServices} onMouseLeave={HoverServices} 
+            <div onClick={()=>{GeneralLink('Services')}} 
+                onMouseEnter={HoverServices} 
+                onMouseLeave={HoverServices} 
                 className={`flex-col cursor-pointer transition-all duration-200 hover:text-blue-500 
                 ${PathServices === usePathname() ? 'text-blue-500' : '' }`}>
 
@@ -49,9 +52,11 @@ export default function Header() {
 
             </div>
 
-            <div onClick={LinkProyects} onMouseEnter={HoverProyects} onMouseLeave={HoverProyects} 
-                className={`flex-col cursor-pointer transition-all duration-200 hover:text-blue-500 
-                ${PathProyects === usePathname() ? 'text-blue-500' : '' }`}>
+            <div onClick={()=>{GeneralLink('Proyects')}} 
+                 onMouseEnter={HoverProyects} 
+                 onMouseLeave={HoverProyects} 
+                 className={`flex-col cursor-pointer transition-all duration-200 hover:text-blue-500 
+                 ${PathProyects === usePathname() ? 'text-blue-500' : '' }`}>
 
                 <span>Proyects</span>
                 <div className='h-1 rounded-2xl bg-blue-500 w-0 ' id='LineContact'></div>

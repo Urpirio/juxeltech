@@ -5,7 +5,7 @@ const DataBestServices = [
        Description: 'Improved search engine ranking for more visibility.',
        Icon: 'bx bx-search-alt', 
        bg: 'bg-amber-400',
-       link: '',
+       link: '/AboutServices/#SeoOptimization',
     },
     {
       keyId: 1,
@@ -13,7 +13,7 @@ const DataBestServices = [
       Description: 'Attractive and optimized design for the best user experience.',
       Icon: 'bx bx-paint-roll', 
       bg: 'bg-blue-600',
-      link: '',
+      link: '/AboutServices/#UI_UXDesign',
     },
     {
       keyId: 2,
@@ -21,7 +21,7 @@ const DataBestServices = [
       Description: 'Custom and functional website creation.',
       Icon: 'bx bx-devices',
       bg: 'bg-violet-600 ',
-      link: '',
+      link: '/AboutServices/#WebDevelopment',
     },
     {
       keyId: 3,
@@ -29,7 +29,7 @@ const DataBestServices = [
       Description: 'Ongoing updates, security, and performance enhancements.',
       Icon: 'bx bxs-hard-hat',
       bg: 'bg-orange-600', 
-      link: '',
+      link: '/AboutServices/#',
    },
 ];
 export default DataBestServices;

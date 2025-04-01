@@ -1,5 +1,6 @@
+'use client';
 import DataBestServices from "@/Data/DataBestServices";
-import Link from "next/link";
+import { GeneralLink } from "@/func/GeneralLink/GeneralLink";
 
 export default function SubBestServices() {
 
@@ -17,7 +18,7 @@ export default function SubBestServices() {
         <p className='text-gray-800'>{props.Description}</p>
       </div>
       <div className='pl-5 pb-5'>
-        <Link href={`${props.link}`} className='text-blue-500 cursor-pointer transition-all duration-200 hover:border-b-1 '>Read more</Link>
+        <button onClick={()=>{GeneralLink(props.link)}} className='text-blue-500 cursor-pointer transition-all duration-200 hover:border-b-1 '>Read more</button>
       </div>
     </article>
     )

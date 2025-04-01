@@ -1,7 +1,8 @@
 @import "tailwindcss";
 
-body{
+:root{
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 
 

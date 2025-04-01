@@ -9,6 +9,7 @@ export default function WebDevelopment() {
       titlePart1 = {DTWD.titlePart1}
       titlePart2 = {DTWD.titlePart2}
       description = {DTWD.description}
+      Id = {DTWD.Id}
       />
     )
   })

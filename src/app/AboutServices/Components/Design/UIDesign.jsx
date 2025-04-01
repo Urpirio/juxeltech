@@ -9,6 +9,7 @@ export default function UIDesign() {
       titlePart1 = {DTUID.titlePart1}
       titlePart2 ={DTUID.titlePart2}
       description = {DTUID.description}
+      Id = {DTUID.Id}
       />
     )
   })

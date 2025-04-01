@@ -9,6 +9,7 @@ export default function SeoOptimization() {
             titlePart1 = {DTSS.titlePart1}
             titlePart2 ={DTSS.titlePart2}
             description = {DTSS.description}
+            Id = {DTSS.Id}
             />
         )
     })

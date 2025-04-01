@@ -1,4 +1,4 @@
-
+'use client';
 import ImgSectin1 from '../../public/section1/image.png';
 import Image from 'next/image';
 

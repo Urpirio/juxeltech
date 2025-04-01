@@ -4,6 +4,7 @@ import '../Style/Globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Head from '@/components/Head';
+import MovilMenu from '@/components/MovilMenu';
 
 export default function layout({children}) {
 
@@ -13,6 +14,7 @@ export default function layout({children}) {
       <Head/>
     <body>
       <Header/>
+      <MovilMenu/>
         {children}
       <Footer/>
     </body>

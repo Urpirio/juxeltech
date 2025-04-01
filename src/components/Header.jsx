@@ -5,6 +5,7 @@ import HoverHome from '@/func/Hovers/HoverHome';
 import HoverServices from '@/func/Hovers/HoverServices';
 import { usePathname } from 'next/navigation';
 import { GeneralLink } from '@/func/GeneralLink/GeneralLink';
+import { DeployMenu, IsDeployMenu } from '@/func/Deploy/DeployMenu';
 
 export default function Header() {
     
@@ -64,8 +65,9 @@ export default function Header() {
             </div>
 
         </nav>
-        <div className='flex justify-end flex-grow basis-0'>
-            <button className='border-1 rounded-2xl bg-blue-500 shadow-xs p-2 w-30 text-white font-semibold transition-all duration-200 cursor-pointer hover:opacity-75'>Contact</button>
+        <div className='flex justify-end items-center flex-grow basis-0'>
+            <button className='hidden sm:flex justify-center items-center border-1 rounded-2xl bg-blue-500 shadow-xs p-2 w-30 text-white font-semibold transition-all duration-200 cursor-pointer hover:opacity-75'>Contact</button>
+            <button onClick={DeployMenu} className='sm:hidden text-4xl text-blue-900'><i className={'bx bx-menu'} id='IconMenu' ></i></button>
         </div>
     </header>
   )

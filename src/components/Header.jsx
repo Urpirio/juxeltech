@@ -11,7 +11,7 @@ export default function Header() {
     
 
   return (
-    <header className='flex items-center justify-around h-15 border-1 sticky top-[0%] bg-white border-gray-200 shadow-xs z-50 p-5'>
+    <header className='flex items-center justify-around h-15  sticky top-[0%] bg-white dark:bg-black dark:text-white  shadow-xs z-50 p-5'>
         <div className='text-2xl flex flex-grow basis-0'>
             <h1>
                 <span className='font-bold text-blue-700'>JX</span>

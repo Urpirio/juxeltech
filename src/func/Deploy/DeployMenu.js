@@ -22,11 +22,10 @@ export const DeployMenu = () => {
 };
 //Esto evalua si se esta haciendo scroll  y si el menu esta dezplegado.
 export const IsScroll = () =>{
-    // alert('funciona')
     if(IsDeployMenu[0].Boolean === true){
         MovilMenu.style.display = 'none';
         IconMenu.className = 'bx bx-menu';
         IsDeployMenu[0].Boolean = false;
     }else{
     }
-}
+};

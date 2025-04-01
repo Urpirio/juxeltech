@@ -7,6 +7,7 @@ const DataTitleSeoServices = [
         positioning in search engines, such as Google. This translates into increased organic traffic to
         your site, which increases the likelihood of conversion and growth for your business.Here I explain
         what this section includes:`,
+        Id: `SeoOptimization`,
     }
 ];
 export default DataTitleSeoServices;

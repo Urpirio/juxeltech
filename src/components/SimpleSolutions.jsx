@@ -7,13 +7,13 @@ import SimpleSolutionBtn from './btns/SimpleSolutionBtn';
 export default function SimpleSolutions() {
 
   return (
-    <section className='flex flex-wrap justify-around items-center p-2 dark:bg-black '>
+    <section className='flex flex-wrap justify-around items-center p-2 '>
         <div className='flex justify-center items-center w-[40%] min-w-80'>
             <Image src={ImgSolution} alt='Person using the computer'/>
         </div>
         <div className='flex flex-col w-[80%] lg:w-[35%] min-w-80 gap-6'>
             <div className='flex flex-wrap w-[100%] '>
-                <div className='text-3xl font-bold dark:text-white '>
+                <div className='text-3xl font-bold  '>
                     <h2>
                         Simple<span className='text-blue-600'> solutions!</span>
                     </h2>

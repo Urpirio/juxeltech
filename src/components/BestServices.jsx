@@ -4,9 +4,9 @@ export default function BestServices() {
 
 
   return (
-    <section className='flex flex-col items-center justify-center dark:bg-black p-5' id='BestServices'>
+    <section className='flex flex-col items-center justify-center  p-5' id='BestServices'>
         <div className='flex flex-col justify-center items-center p-5 gap-2'>
-            <h2 className='font-bold text-3xl text-center dark:text-white'>
+            <h2 className='font-bold text-3xl text-center '>
               Web provide the best <span className='text-blue-600'>services</span>
             </h2>
              <p className='text-[18px] text-center text-gray-800 w-[80%] min-w-80'>

@@ -9,7 +9,7 @@ export default function SubSimpleSolution() {
         </div>
                             
         <div className='flex flex-col justify-baseline w-[70%]'>
-            <h3 className='text-[18px] font-semibold dark:text-white'>{props.title}</h3>
+            <h3 className='text-[18px] font-semibold '>{props.title}</h3>
             <p className='font-normal text-gray-600' >{props.description}</p>
         </div>
     </article>

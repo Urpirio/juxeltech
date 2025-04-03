@@ -1,6 +1,6 @@
 'use client';
 import DataFrenquentlyQuestion from '../../Data/FrequentlyQuestion/DataFrequentlyQuestion';
-import DeployQuestion from '../../func/DeployQuestion'
+import DeployQuestion from '../../func/Question/DeployQuestion';
 
 export default function SubFrequentlyQuestion() {
 
